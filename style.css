@@ -1,0 +1,63 @@
+body {
+    padding-top: 50px;
+}
+
+#container {
+    width: 390px;
+    display: flex;
+    height: 390px;
+    border: 5px double darkred;
+    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divs {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid darkslateblue;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+#row1, #row2, #row3 {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+#reload {
+
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    background-color: blue;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 7px;
+    
+}
